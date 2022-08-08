@@ -1,0 +1,276 @@
+html {
+    max-width: 1600px;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+
+    font-family: 'Lato';
+    font-size: normal;
+    font-size: 16px;
+    line-height: 19.2px;
+    font-weight: 700;
+}
+
+.wrapper {
+    max-width: 1138px;
+    margin: 0 auto;
+}
+
+.header {
+    max-width: 1600px;
+    background: #222222;
+    height: 75px;
+
+}
+
+.header__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.header__logo-link {
+    margin-right: 41px;
+    padding-top: 18;
+    padding-bottom: 19px;
+
+}
+
+.header__seearch {
+    padding-top: 28.21;
+
+}
+
+.header__menu {
+    margin-right: 33px;
+    padding-top: 30px;
+}
+
+
+.header__account {
+    margin-right: 33px;
+    padding-top: 26px;
+}
+
+.header_cart {
+    margin-left: 33px;
+    margin-right: 0;
+    padding-top: 26px;
+}
+
+.header__item:hover,
+.header__item:focus,
+.header__item:active {
+    opacity: .75;
+}
+
+/*Header styles end*/
+
+/*Intro styles start*/
+
+.intro {
+    max-width: 1600px;
+    display: flex;
+    height: 764px;
+    padding: 0px, 0px;
+    background: #F1E4E6;
+    padding-top: 290px;
+    overflow: hidden;
+    margin-bottom: 65px;
+}
+
+/*.intro__container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    position: absolute;
+    margin: 0 auto;
+
+
+}*/
+
+.intro__picture {
+    position: absolute;
+    height: 764px;
+    width: 800.58px;
+    left: 0px;
+    top: 75px;
+    border-radius: 0px;
+    object-fit: cover;
+    background: transparent;
+}
+
+.line {
+    height: 92px;
+    width: 12px;
+    left: 864px;
+    top: 364.90234375px;
+    border-radius: 0px;
+
+    margin-left: 864px;
+    margin-right: 724px;
+    padding-left: 16px;
+    padding-top: 300;
+
+    background: #F16D7F;
+}
+
+.title {
+    margin-left: 892px;
+    margin-right: 331px;
+    padding-top: 290;
+    padding-bottom: 381;
+    height: 93px;
+    width: 377px;
+    left: 892px;
+    top: 365px;
+    border-radius: nullpx;
+}
+
+
+
+.big {
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 58px;
+    text-align: left;
+    color: #222222;
+}
+
+.normal {
+    font-family: Lato;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    text-align: left;
+    color: #222222;
+
+}
+
+.pink {
+    font-family: Lato;
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 44px;
+    text-align: left;
+    color: #F16D7F;
+}
+
+/*Intro styles end*/
+
+/*Categories styles start*/
+
+.categories {
+    margin-bottom: 96px;
+}
+
+.categories__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+
+}
+
+.card {
+    position: relative;
+}
+
+.card::after {
+    display: block;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: rgba(33, 22, 22, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.card__women {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: absolute;
+    bottom: 105px;
+    left: 103px;
+    z-index: 3;
+}
+
+.card__men {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: absolute;
+    bottom: 105px;
+    left: 125px;
+    z-index: 3;
+}
+
+.card__kidos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: absolute;
+    bottom: 105px;
+    left: 123px;
+    z-index: 3;
+}
+
+.nonecolortext {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.card__accessories {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: absolute;
+    bottom: 65px;
+    left: 491px;
+    z-index: 3;
+}
+
+.colortext {
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #F16D7F;
+}
+
+.card_lg {
+    grid-column: span 3;
+}
+
+.card-pic {
+    height: 260px;
+    object-fit: cover;
+
+}
+
+.ccard-pic-acc {
+    height: 180px;
+}
+
+
+/*Categories styles end*/
